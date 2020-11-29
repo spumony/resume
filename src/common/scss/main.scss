@@ -1,0 +1,24 @@
+@import './reset.scss';
+@import './variables.scss';
+@import './bootstrap_extend.scss';
+
+body {
+  background: linear-gradient(90deg, #eee 0.5%, transparent 1%) 85px 0, #fff;
+  background-size: 250px 1px;
+  background-color: #f8fafa;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.padding {
+  margin-top: 300px;
+}
+
+.bullet-list {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}

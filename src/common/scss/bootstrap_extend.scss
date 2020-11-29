@@ -1,0 +1,7 @@
+@import './variables.scss';
+
+// Font
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$text-muted: $primary;
+
+@import 'node_modules/bootstrap/scss/bootstrap';
