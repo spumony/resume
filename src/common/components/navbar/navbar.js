@@ -1,72 +1,87 @@
-import React from 'react';
-import {
-  Badge,
-  Button,
-  Col,
-  PopoverHeader,
-  Row,
-  UncontrolledPopover,
-} from 'reactstrap';
+import React, { useState } from 'react';
 import { Trans } from 'react-i18next';
-import { Link } from 'react-router-dom';
 
 import telegram from '../../img/telegram.svg';
 import linkedin from '../../img/linkedin.svg';
 import github from '../../img/github.svg';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  Nav,
+  NavItem,
+  NavbarText,
+  Badge,
+  Col,
+  Button,
+} from 'reactstrap';
 
-const Header = ({ language, changeLanguage }) => {
+const Navbar2 = ({ language, changeLanguage }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
   return (
-    <Row className="mt-5 justify-content-between">
-      <Col sm="5">
+    <Navbar className="mt-5" color="transparent" light expand="md">
+      <Col sm="4">
         <span className="logo pr-4">
           <Trans>CHUMAK ALEXANDER</Trans>
         </span>
-        {language === 'en' ? (
-          <Button
-            color="link"
-            className="font-weight-bold"
-            onClick={() => changeLanguage('ru')}
-          >
-            Русская версия
-          </Button>
-        ) : (
-          <Button
-            color="link"
-            className="font-weight-bold"
-            onClick={() => changeLanguage('en')}
-          >
-            English version
-          </Button>
-        )}
-
         <h6>ciumac.dev@gmail.com</h6>
-
         <Badge color="success">
           <Trans>OPEN TO WORK</Trans>
         </Badge>
       </Col>
-      <Col sm="5">
-        <a href="https://github.com/spumony" target="blank">
-          <img className="pr-2" src={github} alt="img" />
-        </a>
-        <a href="https://www.linkedin.com/in/ciumac-dev/" target="blank">
-          <img className="pr-2" src={linkedin} alt="img" />
-        </a>
 
-        <a href="https://t.me/spumony" target="blank">
-          <img className="pr-3" src={telegram} alt="img" />
-        </a>
-        <a
-          href="https://drive.google.com/file/d/1aOPrznnjHuDT74yHVPmLC8YvKeBDwoqH/view?usp=sharing"
-          target="blank"
-        >
-          <Button color="primary" size="sm" className="font-weight-bold">
-            <Trans>DOWNLOAD RESUME.PDF</Trans>
-          </Button>
-        </a>
-      </Col>
-    </Row>
+      <NavbarToggler onClick={toggle} />
+      <Collapse isOpen={isOpen} navbar>
+        <Nav className="mr-auto" navbar>
+          <NavItem>
+            {language === 'en' ? (
+              <Button
+                color="link"
+                className="font-weight-bold"
+                onClick={() => changeLanguage('ru')}
+              >
+                Русская версия
+              </Button>
+            ) : (
+              <Button
+                color="link"
+                className="font-weight-bold"
+                onClick={() => changeLanguage('en')}
+              >
+                English version
+              </Button>
+            )}
+          </NavItem>
+        </Nav>
+        <NavbarText>
+          <a className="pr-2" href="https://github.com/spumony" target="blank">
+            <img src={github} alt="img" />
+          </a>
+          <a
+            className="pr-2"
+            href="https://www.linkedin.com/in/ciumac-dev/"
+            target="blank"
+          >
+            <img src={linkedin} alt="img" />
+          </a>
+          <a className="pr-3" href="https://t.me/spumony" target="blank">
+            <img src={telegram} alt="img" />
+          </a>
+
+          <a
+            href="https://drive.google.com/file/d/1aOPrznnjHuDT74yHVPmLC8YvKeBDwoqH/view?usp=sharing"
+            target="blank"
+          >
+            <Button color="primary" size="sm" className="font-weight-bold">
+              <Trans>DOWNLOAD RESUME.PDF</Trans>
+            </Button>
+          </a>
+        </NavbarText>
+      </Collapse>
+    </Navbar>
   );
 };
 
-export default Header;
+export default Navbar2;
