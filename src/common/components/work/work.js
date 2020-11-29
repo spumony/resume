@@ -24,8 +24,7 @@ const Work = () => {
             <span className="font-weight-bold">
               <Trans>Graphic Designer</Trans>
             </span>{' '}
-            <Trans>in</Trans>
-            Exterior Security Systems
+            <Trans>in</Trans> Exterior Security Systems
           </h3>
           <h5>
             <Trans>OCT 2018 - APR 2019</Trans>
