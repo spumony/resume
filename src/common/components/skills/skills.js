@@ -8,13 +8,17 @@ import waterpolo from '../../img/waterpolo.svg';
 import music from '../../img/music.svg';
 import soccer from '../../img/soccer.svg';
 
+import { Trans } from 'react-i18next';
+
 const Skills = () => {
   return (
     <Row className="padding">
       <Col sm="6">
-        <h1 className="font-weight-bold">Skills</h1>
+        <h1 className="font-weight-bold">
+          <Trans>Skills</Trans>
+        </h1>
         <ul className="bullet-list">
-          <li>Development:</li>
+          <li><Trans>Development</Trans>:</li>
           <li>- HTML / CSS / SCSS</li>
           <li className="font-weight-bold">- Javascript</li>
           <li className="font-weight-bold">- React.js</li>
@@ -24,30 +28,30 @@ const Skills = () => {
           <li>- MongoDB</li>
           <li>- SQL (MySQL)</li>
           <li>--------------------------</li>
-          <li>Design:</li>
+          <li><Trans>Design</Trans>:</li>
           <li>- Adobe Photoshop</li>
           <li>- Adobe Illustrator</li>
           <li>- Figma</li>
         </ul>
       </Col>
       <Col sm="6">
-        <h1 className="font-weight-bold">Languages</h1>
+        <h1 className="font-weight-bold"><Trans>Languages</Trans></h1>
         <ul className="bullet-list">
-          <li>Russian - native</li>
-          <li>Romanian - advanced</li>
-          <li>English - upper intermediate</li>
+          <li><Trans>Russian - native</Trans></li>
+          <li><Trans>Romanian - advanced</Trans></li>
+          <li><Trans>English - upper intermediate</Trans></li>
         </ul>
 
-        <h1 className="font-weight-bold">Languages</h1>
+        <h1 className="font-weight-bold"><Trans>Education</Trans></h1>
         <ul className="bullet-list">
-          <li>Technical University of Moldova</li>
-          <li>Bachelor in IT 2015 - 2018</li>
+          <li><Trans>Technical University of Moldova</Trans></li>
+          <li><Trans>Bachelor in IT 2015 - 2018</Trans></li>
           <li> &#8192; </li>
-          <li>Technical University of Moldova</li>
-          <li>Master in IT 2018 - 2020</li>
+          <li><Trans>Technical University of Moldova</Trans></li>
+          <li><Trans>Master in IT 2018 - 2020</Trans></li>
         </ul>
 
-        <h1 className="font-weight-bold">Hobby</h1>
+        <h1 className="font-weight-bold"><Trans>Hobby</Trans></h1>
         <ul className="bullet-list">
           <li>
             <img className="pr-3" src={swim} alt="img" />

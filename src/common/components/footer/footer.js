@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { Trans } from 'react-i18next';
 import { Button, Col, Row } from 'reactstrap';
 import telegram from '../../img/telegram.svg';
 import linkedin from '../../img/linkedin.svg';
@@ -9,13 +11,24 @@ const Footer = () => {
   return (
     <Row className="padding mb-5 ">
       <Col sm="12" className="d-flex justify-content-center">
-        <img className="pr-3" src={github} alt="img" />
-        <img className="pr-3" src={gmail} alt="img" />
-        <img className="pr-3" src={linkedin} alt="img" />
-        <img className="pr-5" src={telegram} alt="img" />
-        <Button color="primary" size="sm" className="font-weight-bold">
-          DOWNLOAD RESUME.PDF
-        </Button>
+        <a href="https://github.com/spumony" target="blank">
+          <img className="pr-2" src={github} alt="img" />
+        </a>
+        <a href="https://www.linkedin.com/in/ciumac-dev/" target="blank">
+          <img className="pr-2" src={linkedin} alt="img" />
+        </a>
+        <a href="https://t.me/spumony" target="blank">
+          <img className="pr-3" src={telegram} alt="img" />
+        </a>
+        <Link
+          to="/files/CIUMAC_ALEXANDR_FRONT_END_SHORT.pdf"
+          target="blank"
+          download
+        >
+          <Button color="primary" size="sm" className="font-weight-bold">
+            <Trans>DOWNLOAD RESUME.PDF</Trans>
+          </Button>
+        </Link>
       </Col>
     </Row>
   );

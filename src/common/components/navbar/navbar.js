@@ -1,29 +1,70 @@
 import React from 'react';
-import { Badge, Button, Col, Row } from 'reactstrap';
+import {
+  Badge,
+  Button,
+  Col,
+  PopoverHeader,
+  Row,
+  UncontrolledPopover,
+} from 'reactstrap';
+import { Trans } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 import telegram from '../../img/telegram.svg';
 import linkedin from '../../img/linkedin.svg';
-import gmail from '../../img/gmail.svg';
 import github from '../../img/github.svg';
 
-const Header = () => {
+const Header = ({ language, changeLanguage }) => {
   return (
     <Row className="mt-5 justify-content-between">
       <Col sm="5">
-        <span className="logo pr-4">CHUMAK ALEXANDER</span>
-        <Button color="link" className="font-weight-bold">
-          Русская версия
-        </Button>
-        <Badge color="success">OPEN TO WORK</Badge>
+        <span className="logo pr-4">
+          <Trans>CHUMAK ALEXANDER</Trans>
+        </span>
+        {language === 'en' ? (
+          <Button
+            color="link"
+            className="font-weight-bold"
+            onClick={() => changeLanguage('ru')}
+          >
+            Русская версия
+          </Button>
+        ) : (
+          <Button
+            color="link"
+            className="font-weight-bold"
+            onClick={() => changeLanguage('en')}
+          >
+            English version
+          </Button>
+        )}
+
+        <h6>ciumac.dev@gmail.com</h6>
+
+        <Badge color="success">
+          <Trans>OPEN TO WORK</Trans>
+        </Badge>
       </Col>
       <Col sm="5">
-        <img className="pr-2" src={github} alt="img" />
-        <img className="pr-2" src={gmail} alt="img" />
-        <img className="pr-2" src={linkedin} alt="img" />
-        <img className="pr-3" src={telegram} alt="img" />
-        <Button color="primary" size="sm" className="font-weight-bold">
-          DOWNLOAD RESUME.PDF
-        </Button>
+        <a href="https://github.com/spumony" target="blank">
+          <img className="pr-2" src={github} alt="img" />
+        </a>
+        <a href="https://www.linkedin.com/in/ciumac-dev/" target="blank">
+          <img className="pr-2" src={linkedin} alt="img" />
+        </a>
+
+        <a href="https://t.me/spumony" target="blank">
+          <img className="pr-3" src={telegram} alt="img" />
+        </a>
+        <Link
+          to="/files/CIUMAC_ALEXANDR_FRONT_END_SHORT.pdf"
+          target="blank"
+          download
+        >
+          <Button color="primary" size="sm" className="font-weight-bold">
+            <Trans>DOWNLOAD RESUME.PDF</Trans>
+          </Button>
+        </Link>
       </Col>
     </Row>
   );

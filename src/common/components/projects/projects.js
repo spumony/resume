@@ -3,12 +3,16 @@ import { Button, Col, Row } from 'reactstrap';
 import wow from '../../img/wow.svg';
 import noeyes from '../../img/noeyes.svg';
 
+import { Trans } from 'react-i18next';
+
 const Projects = () => {
   return (
     <>
       <Row className="padding">
         <Col>
-          <h1 className="font-weight-bold">Projects</h1>
+          <h1 className="font-weight-bold">
+            <Trans>Projects</Trans>
+          </h1>
         </Col>
       </Row>
 
@@ -21,14 +25,15 @@ const Projects = () => {
             <span className="font-weight-bold">XVENT</span>
           </h3>
           <h5>
-            Stack: <span className="font-weight-bold">React.js</span>,{' '}
+            <Trans>Stack</Trans>:{' '}
+            <span className="font-weight-bold">React.js</span>,{' '}
             <span className="font-weight-bold">Redux</span>, Node.js,
             Express.js, MongoDB
           </h5>
           <h5>
-            Link:
+            <Trans>Link</Trans>:
             <Button color="link" className="font-weight-bold">
-              Open project
+              <Trans>Open project</Trans>
             </Button>
           </h5>
         </Col>
@@ -41,7 +46,8 @@ const Projects = () => {
             <span className="font-weight-bold">DEVCONNECTOR</span>
           </h3>
           <h5>
-            Stack: <span className="font-weight-bold">React.js</span>,{' '}
+            <Trans>Stack</Trans>:{' '}
+            <span className="font-weight-bold">React.js</span>,{' '}
             <span className="font-weight-bold">Redux</span>, Node.js,
             Express.js, MongoDB
           </h5>
@@ -54,11 +60,13 @@ const Projects = () => {
           <h3>
             <span className="font-weight-bold">ZSPORT.MD</span>
           </h3>
-          <h5>Stack: Stack: Wordpress, MySQL</h5>
           <h5>
-            Link:
+            <Trans>Stack</Trans>: Wordpress, MySQL
+          </h5>
+          <h5>
+            <Trans>Link</Trans>:
             <Button color="link" className="font-weight-bold">
-              Open project
+              <Trans>Open project</Trans>
             </Button>
           </h5>
         </Col>
@@ -70,11 +78,13 @@ const Projects = () => {
           <h3>
             <span className="font-weight-bold">VIE.MD</span>
           </h3>
-          <h5>Stack: Stack: Wordpress, MySQL</h5>
           <h5>
-            Link:
+            <Trans>Stack</Trans>: Wordpress, MySQL
+          </h5>
+          <h5>
+            <Trans>Link</Trans>:
             <Button color="link" className="font-weight-bold">
-              Open project
+              <Trans>Open project</Trans>
             </Button>
           </h5>
         </Col>
@@ -88,11 +98,13 @@ const Projects = () => {
           <h3>
             <span className="font-weight-bold">RADCOR.MD</span>
           </h3>
-          <h5>Stack: Stack: HTML, CSS</h5>
           <h5>
-            Link:
+            <Trans>Stack</Trans>: HTML, CSS
+          </h5>
+          <h5>
+            <Trans>Link</Trans>:
             <Button color="link" className="font-weight-bold">
-              Open project
+              <Trans>Open project</Trans>
             </Button>
           </h5>
         </Col>
@@ -104,11 +116,13 @@ const Projects = () => {
           <h3>
             <span className="font-weight-bold">KGI.MD</span>
           </h3>
-          <h5>Stack: Wordpress, MySQL</h5>
           <h5>
-            Link:
+            <Trans>Stack</Trans>: Wordpress, MySQL
+          </h5>
+          <h5>
+            <Trans>Link</Trans>:
             <Button color="link" className="font-weight-bold">
-              Open project
+              <Trans>Open project</Trans>
             </Button>
           </h5>
         </Col>

@@ -1,6 +1,40 @@
 {
     "translations": {
-      "Welcome":
-      "Привет"
+      "CHUMAK ALEXANDER":"ЧУМАК АЛЕКСАНДР",
+      "OPEN TO WORK":"В ПОИСКЕ РАБОТЫ",
+      "DOWNLOAD RESUME.PDF":"СКАЧАТЬ РЕЗЮМЕ.PDF",
+      "Welcome to my website":"Приветствую на своём сайте",
+      "My name is Alex. I’m middle":"Меня зовут Александр. Я middle",
+      "frontend":"фронтенд",
+      "developer":"разработчик",
+      "Skills":"Навыки",
+      "Development:":"Разработка:",
+      "Languages":"Языки",
+      "Russian - native":"Русский - родной",
+      "Romanian - advanced":"Румынский - продвинутый",
+      "English - upper intermediate":"Английский - upper intermediate",
+      "Education":"Образование",
+      "Technical University of Moldova":"Технический Университет Молдовы",
+      "Bachelor in IT 2015 - 2018":"Бакалавр в IT 2015 - 2018",
+      "Master in IT 2018 - 2020":"Магистратура в IT 2018 - 2020",
+      "Hobby":"Хобби",
+      "Work experience":"Опыт работы",
+      "Graphic Designer":"Графический дизайнер",
+      "in":"в",
+      "Design":"Дизайн",
+      "OCT 2018 - APR 2019":"ОКТ 2018 - АПР 2019",
+      "Development of a creative concept for promotional materials":"Разработка креативной концепции рекламных материалов",
+      "Development of models of printing products":"Разработка макетов полиграфической продукции",
+      "Design of layouts for advertising indoor and outdoor":"Дизайн макетов для внутренней и наружной рекламы",
+      "Web developer":"Веб разработчик",
+      "freelance":"фриланс",
+      "AUG 2019 - DEC 2019":"АВГ 2019 - ДЕК 2019",
+      "Website development and support":"Разработка и поддержка веб-сайтов",
+      "Support and modernization of existing projects":"Поддержка и модернизация существующих проектов",
+      "Search and elimination of current errors in projects":"Поиск и устранение текущих ошибок в проектах",
+      "Projects":"Проекты",
+      "Stack":"Стэк технологий",
+      "Link":"Ссылка",
+      "Open project":"Открыть проект"
     }
   }

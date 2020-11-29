@@ -1,6 +1,40 @@
 {
   "translations": {
-    "Welcome":
-    "Welcome"
+    "CHUMAK ALEXANDER":"CHUMAK ALEXANDER",
+    "OPEN TO WORK":"OPEN TO WORK",
+    "DOWNLOAD RESUME.PDF":"DOWNLOAD RESUME.PDF",
+    "Welcome to my website":"Welcome to my website",
+    "My name is Alex. I’m middle":"My name is Alex. I’m middle",
+    "frontend":"frontend",
+    "developer":"developer",
+    "Skills":"Skills",
+    "Development":"Development",
+    "Languages":"Languages",
+    "Russian - native":"Russian - native",
+    "Romanian - advanced":"Romanian - advanced",
+    "English - upper intermediate":"English - upper intermediate",
+    "Education":"Education",
+    "Technical University of Moldova":"Technical University of Moldova",
+    "Bachelor in IT 2015 - 2018":"Bachelor in IT 2015 - 2018",
+    "Master in IT 2018 - 2020":"Master in IT 2018 - 2020",
+    "Hobby":"Hobby",
+    "Work experience":"Work experience",
+    "Graphic Designer":"Graphic Designer",
+    "in":"in",
+    "Design":"Design",
+    "OCT 2018 - APR 2019":"OCT 2018 - APR 2019",
+    "Development of a creative concept for promotional materials":"Development of a creative concept for promotional materials",
+    "Development of models of printing products":"Development of models of printing products",
+    "Design of layouts for advertising indoor and outdoor":"Design of layouts for advertising indoor and outdoor",
+    "Web developer":"Web developer",
+    "freelance":"freelance",
+    "AUG 2019 - DEC 2019":"AUG 2019 - DEC 2019",
+    "Website development and support":"Website development and support",
+    "Support and modernization of existing projects":"Support and modernization of existing projects",
+    "Search and elimination of current errors in projects":"Search and elimination of current errors in projects",
+    "Projects":"Projects",
+    "Stack":"Stack",
+    "Link":"Link",
+    "Open project":"Open project"
   }
 }
