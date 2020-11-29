@@ -32,9 +32,14 @@ const Projects = () => {
           </h5>
           <h5>
             <Trans>Link</Trans>:
-            <Button color="link" className="font-weight-bold">
-              <Trans>Open project</Trans>
-            </Button>
+            <a
+              href="https://www.notion.so/Xvent-project-b0e162ec82344ed5bad09c06caeb993a"
+              target="blank"
+            >
+              <Button color="link" className="font-weight-bold">
+                <Trans>Open project</Trans>
+              </Button>
+            </a>
           </h5>
         </Col>
       </Row>
@@ -65,9 +70,11 @@ const Projects = () => {
           </h5>
           <h5>
             <Trans>Link</Trans>:
-            <Button color="link" className="font-weight-bold">
-              <Trans>Open project</Trans>
-            </Button>
+            <a href="https://www.zsport.md" target="blank">
+              <Button color="link" className="font-weight-bold">
+                <Trans>Open project</Trans>
+              </Button>
+            </a>
           </h5>
         </Col>
       </Row>
@@ -83,9 +90,11 @@ const Projects = () => {
           </h5>
           <h5>
             <Trans>Link</Trans>:
-            <Button color="link" className="font-weight-bold">
-              <Trans>Open project</Trans>
-            </Button>
+            <a href="https://www.vie.md" target="blank">
+              <Button color="link" className="font-weight-bold">
+                <Trans>Open project</Trans>
+              </Button>
+            </a>
           </h5>
         </Col>
       </Row>
@@ -103,9 +112,11 @@ const Projects = () => {
           </h5>
           <h5>
             <Trans>Link</Trans>:
-            <Button color="link" className="font-weight-bold">
-              <Trans>Open project</Trans>
-            </Button>
+            <a href="https://www.radcor.md" target="blank">
+              <Button color="link" className="font-weight-bold">
+                <Trans>Open project</Trans>
+              </Button>
+            </a>
           </h5>
         </Col>
       </Row>
@@ -121,9 +132,11 @@ const Projects = () => {
           </h5>
           <h5>
             <Trans>Link</Trans>:
-            <Button color="link" className="font-weight-bold">
-              <Trans>Open project</Trans>
-            </Button>
+            <a href="https://www.kgi.md" target="blank">
+              <Button color="link" className="font-weight-bold">
+                <Trans>Open project</Trans>
+              </Button>
+            </a>
           </h5>
         </Col>
       </Row>

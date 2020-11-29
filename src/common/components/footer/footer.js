@@ -20,15 +20,14 @@ const Footer = () => {
         <a href="https://t.me/spumony" target="blank">
           <img className="pr-3" src={telegram} alt="img" />
         </a>
-        <Link
-          to="/files/CIUMAC_ALEXANDR_FRONT_END_SHORT.pdf"
+        <a
+          href="https://drive.google.com/file/d/1aOPrznnjHuDT74yHVPmLC8YvKeBDwoqH/view?usp=sharing"
           target="blank"
-          download
         >
           <Button color="primary" size="sm" className="font-weight-bold">
             <Trans>DOWNLOAD RESUME.PDF</Trans>
           </Button>
-        </Link>
+        </a>
       </Col>
     </Row>
   );
