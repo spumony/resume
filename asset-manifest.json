@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.7a829526.chunk.css",
+    "main.js": "/resume/static/js/main.7430d2b0.chunk.js",
+    "main.js.map": "/resume/static/js/main.7430d2b0.chunk.js.map",
+    "runtime-main.js": "/resume/static/js/runtime-main.e5724a58.js",
+    "runtime-main.js.map": "/resume/static/js/runtime-main.e5724a58.js.map",
+    "static/js/2.2eda1077.chunk.js": "/resume/static/js/2.2eda1077.chunk.js",
+    "static/js/2.2eda1077.chunk.js.map": "/resume/static/js/2.2eda1077.chunk.js.map",
+    "static/js/3.dcc15583.chunk.js": "/resume/static/js/3.dcc15583.chunk.js",
+    "static/js/3.dcc15583.chunk.js.map": "/resume/static/js/3.dcc15583.chunk.js.map",
+    "index.html": "/resume/index.html",
+    "static/css/main.7a829526.chunk.css.map": "/resume/static/css/main.7a829526.chunk.css.map",
+    "static/js/2.2eda1077.chunk.js.LICENSE.txt": "/resume/static/js/2.2eda1077.chunk.js.LICENSE.txt",
+    "static/media/developer.01743bd9.svg": "/resume/static/media/developer.01743bd9.svg",
+    "static/media/film.0c0e1949.svg": "/resume/static/media/film.0c0e1949.svg",
+    "static/media/github.f3c80d22.svg": "/resume/static/media/github.f3c80d22.svg",
+    "static/media/gmail.b1ac7fc8.svg": "/resume/static/media/gmail.b1ac7fc8.svg",
+    "static/media/linkedin.08404925.svg": "/resume/static/media/linkedin.08404925.svg",
+    "static/media/music.8fcc8ad9.svg": "/resume/static/media/music.8fcc8ad9.svg",
+    "static/media/noeyes.dd223f38.svg": "/resume/static/media/noeyes.dd223f38.svg",
+    "static/media/painter.8a0fc59d.svg": "/resume/static/media/painter.8a0fc59d.svg",
+    "static/media/reading.e999ca83.svg": "/resume/static/media/reading.e999ca83.svg",
+    "static/media/soccer.e3e21807.svg": "/resume/static/media/soccer.e3e21807.svg",
+    "static/media/swim.ef985482.svg": "/resume/static/media/swim.ef985482.svg",
+    "static/media/telegram.7a4f5675.svg": "/resume/static/media/telegram.7a4f5675.svg",
+    "static/media/waterpolo.ec753d3a.svg": "/resume/static/media/waterpolo.ec753d3a.svg",
+    "static/media/wave.d5071fd5.svg": "/resume/static/media/wave.d5071fd5.svg",
+    "static/media/wow.d932181e.svg": "/resume/static/media/wow.d932181e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5724a58.js",
+    "static/js/2.2eda1077.chunk.js",
+    "static/css/main.7a829526.chunk.css",
+    "static/js/main.7430d2b0.chunk.js"
+  ]
+}
