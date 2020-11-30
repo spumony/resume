@@ -15,6 +15,39 @@ const Work = () => {
           </h1>
         </Col>
       </Row>
+
+      <Row className="mt-5">
+        <Col sm="2" className="pt-5">
+          <img className="pr-3" src={developer} alt="img" />
+        </Col>
+        <Col sm="10">
+          <h3>
+            <span className="font-weight-bold">
+              <Trans>Web developer</Trans>{' '}
+            </span>
+            <Trans>freelance</Trans>
+          </h3>
+          <h5>
+            <Trans>AUG 2019 - Present</Trans>
+          </h5>
+
+          <ul className="bullet-list mt-3">
+            <li>
+              - <Trans>Website development and support</Trans>
+            </li>
+            <li>
+              - <Trans>Support and modernization of existing projects</Trans>
+            </li>
+            <li>
+              -{' '}
+              <Trans>
+                Search and elimination of current errors in projects
+              </Trans>
+            </li>
+          </ul>
+        </Col>
+      </Row>
+
       <Row className="pt-5">
         <Col sm="2" className="pt-5">
           <img className="pr-3" src={painter} alt="img" />
@@ -44,37 +77,6 @@ const Work = () => {
               -{' '}
               <Trans>
                 Design of layouts for advertising indoor and outdoor
-              </Trans>
-            </li>
-          </ul>
-        </Col>
-      </Row>
-      <Row className="mt-5">
-        <Col sm="2" className="pt-5">
-          <img className="pr-3" src={developer} alt="img" />
-        </Col>
-        <Col sm="10">
-          <h3>
-            <span className="font-weight-bold">
-              <Trans>Web developer</Trans>{' '}
-            </span>
-            <Trans>freelance</Trans>
-          </h3>
-          <h5>
-            <Trans>AUG 2019 - Present</Trans>
-          </h5>
-
-          <ul className="bullet-list mt-3">
-            <li>
-              - <Trans>Website development and support</Trans>
-            </li>
-            <li>
-              - <Trans>Support and modernization of existing projects</Trans>
-            </li>
-            <li>
-              -{' '}
-              <Trans>
-                Search and elimination of current errors in projects
               </Trans>
             </li>
           </ul>
