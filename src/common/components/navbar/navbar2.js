@@ -13,7 +13,7 @@ import telegram from '../../img/telegram.svg';
 import linkedin from '../../img/linkedin.svg';
 import github from '../../img/github.svg';
 
-const Header = ({ language, changeLanguage }) => {
+const Navbar2 = ({ language, changeLanguage }) => {
   return (
     <Row className="mt-5 justify-content-between">
       <Col sm="3">
@@ -72,4 +72,4 @@ const Header = ({ language, changeLanguage }) => {
   );
 };
 
-export default Header;
+export default Navbar2;

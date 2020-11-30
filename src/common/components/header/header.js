@@ -12,7 +12,7 @@ const Header = () => {
           <Trans>Welcome to my website</Trans>!
         </h1>
         <h1 className="font-weight-bold">
-          <Trans>My name is Alex. I’m middle</Trans>{' '}
+          <Trans>My name is Alex. I’m</Trans>{' '}
           <span className="text-muted">
             <Trans>frontend</Trans>
           </span>{' '}

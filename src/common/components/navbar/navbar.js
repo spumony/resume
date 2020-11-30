@@ -6,7 +6,7 @@ import linkedin from '../../img/linkedin.svg';
 import github from '../../img/github.svg';
 import {
   Collapse,
-  Navbar,
+  Navbar as NavBar,
   NavbarToggler,
   Nav,
   NavItem,
@@ -16,12 +16,12 @@ import {
   Button,
 } from 'reactstrap';
 
-const Navbar2 = ({ language, changeLanguage }) => {
+const Navbar = ({ language, changeLanguage }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <Navbar className="mt-5" color="transparent" light expand="md">
+    <NavBar className="mt-5" color="transparent" light expand="md">
       <Col sm="4">
         <span className="logo pr-4">
           <Trans>CHUMAK ALEXANDER</Trans>
@@ -80,8 +80,8 @@ const Navbar2 = ({ language, changeLanguage }) => {
           </a>
         </NavbarText>
       </Collapse>
-    </Navbar>
+    </NavBar>
   );
 };
 
-export default Navbar2;
+export default Navbar;
