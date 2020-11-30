@@ -61,7 +61,7 @@ const Work = () => {
             <Trans>freelance</Trans>
           </h3>
           <h5>
-            <Trans>AUG 2019 - DEC 2019</Trans>
+            <Trans>AUG 2019 - Present</Trans>
           </h5>
 
           <ul className="bullet-list mt-3">
