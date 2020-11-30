@@ -6,7 +6,7 @@ import wave from '../../img/wave.svg';
 
 const Header = () => {
   return (
-    <Row className="justify-content-between padding">
+    <Row className="justify-content-between header-padding">
       <Col sm="10">
         <h1 className="font-weight-bold">
           <Trans>Welcome to my website</Trans>!
