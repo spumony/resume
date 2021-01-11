@@ -45,6 +45,29 @@ const Projects = () => {
       </Row>
 
       <Row className="pt-5">
+        <Col sm="2">
+          <img className="pr-3" src={wow} alt="img" />
+        </Col>
+        <Col sm="10">
+          <h3>
+            <span className="font-weight-bold">Mini Blog</span>
+          </h3>
+          <h5>
+            <Trans>Stack</Trans>:{' '}
+            <span className="font-weight-bold">JavaScript</span>, Firebase
+          </h5>
+          <h5>
+            <Trans>Link</Trans>:
+            <a href="https://blog-minin.web.app/" target="blank">
+              <Button color="link" className="font-weight-bold">
+                <Trans>Open project</Trans>
+              </Button>
+            </a>
+          </h5>
+        </Col>
+      </Row>
+
+      <Row className="pt-5">
         <Col sm="2"></Col>
         <Col sm="10">
           <h3>
