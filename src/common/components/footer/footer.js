@@ -21,7 +21,7 @@ const Footer = () => {
           <img className="pr-3" src={telegram} alt="img" />
         </a>
         <a
-          href="https://drive.google.com/file/d/1aOPrznnjHuDT74yHVPmLC8YvKeBDwoqH/view?usp=sharing"
+          href="https://drive.google.com/file/d/1G6Y7eUUd9GdbnlTBzv0m0QnqBtyKM5Ng/view?usp=sharing"
           target="blank"
         >
           <Button color="primary" size="sm" className="font-weight-bold">
