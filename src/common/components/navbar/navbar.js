@@ -71,7 +71,7 @@ const Navbar = ({ language, changeLanguage }) => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1G6Y7eUUd9GdbnlTBzv0m0QnqBtyKM5Ng/view?usp=sharing"
+            href="https://drive.google.com/file/d/1hw07mxslWRPA-N1Elf85JmIH_zWZm8FC/view?usp=sharing"
             target="blank"
           >
             <Button color="primary" size="sm" className="font-weight-bold">
